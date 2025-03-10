@@ -7,7 +7,7 @@
 :root {      
     --alt-font: "Inter", sans-serif;
     --primary-font: "Inter", sans-serif;
-    --base-color: #3a954f;
+    --base-color: #1A4F1A;
     --green: #195828;
     --dark-gray: #1f2220;
     --medium-gray: #828282;
@@ -41,7 +41,7 @@ body {
     color: var(--white);
 }
 header .navbar-brand img {
-    max-height: 36px;
+    max-height: 50px;
 }
 .navbar .navbar-nav .nav-link {
     font-weight: 600;
@@ -123,7 +123,7 @@ header .navbar-brand img {
 }
 /* footer */
 footer .footer-logo img {
-    max-height: 43px;
+    max-height: 100px;
     width: auto;
 }
 footer a:hover {
