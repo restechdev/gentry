@@ -41,11 +41,11 @@ body {
     color: var(--white);
 }
 header .navbar-brand img {
-    max-height: 50px;
+    max-height: 65px;
 }
 .navbar .navbar-nav .nav-link {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 15px;
 }
 /* button */
 .btn {
