@@ -1,6 +1,6 @@
 /* -------------------------------------------------------
  
- Theme Name: Crafto - The Multipurpose HTML5 Template
+ Theme Name: Gentry Corporation Ltd.
  Theme URL: https://craftohtml.themezaa.com/
  Description: Elevate your online presence with Crafto - a modern, versatile, multipurpose Bootstrap 5 responsive HTML5, SCSS template using highly creative 52+ ready demos.
  Author: ThemeZaa - https://www.themezaa.com/
