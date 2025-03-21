@@ -71,7 +71,7 @@ header .navbar-brand img {
 }
 /* Text gradient color */
 .text-gradient-light-green-white {
-    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%,  #ebf6ee 90%);
+    background: linear-gradient(to top, rgb(255 255 255) 10%, #1a4f1a4b 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
