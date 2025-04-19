@@ -74,6 +74,22 @@
               position: relative;
               width: 250px;
             }
+            .team-container13 {
+              position: relative;
+              width: 250px;
+            }
+            .team-container14 {
+              position: relative;
+              width: 250px;
+            }
+            .team-container15 {
+              position: relative;
+              width: 250px;
+            }
+            .team-container16 {
+              position: relative;
+              width: 250px;
+            }
           
             /* Base image styling */
             .team-img {
@@ -269,6 +285,42 @@
                             <p class="text-gray fw-400 font-20px" style="margin-top: -20px;">Manager-Business Development</p>
                         </div>
                     </div>
+
+                    <!-- Row 6 - Four Elements, Evenly Spaced -->
+                    <div class="row align-items-center mb-5 xs-mb-30px">
+                      <div class="col-md-3 text-center">
+                          <div class="team-container13 mx-auto mb-3">
+                              <img style="border-radius: 25px;" id="team13" src="images/team-main.JPG" class="team-img" alt="William Amitav Dobey">
+                              <img style="border-radius: 25px;" id="hoverTeam13" src="images/team-hover.JPG" class="hover-img" alt="William Amitav Dobey Hover">
+                          </div>
+                          <h5 class="text-dark-gray fw-600">Rezaur Rahman</h5>
+                          <p class="text-gray fw-400 font-20px" style="margin-top: -20px;">Manager</p>
+                      </div>
+                      <div class="col-md-3 text-center">
+                          <div class="team-container14 mx-auto mb-3">
+                              <img style="border-radius: 25px;" id="team14" src="images/team-main.JPG" class="team-img" alt="Golam Mostafa Sumon">
+                              <img style="border-radius: 25px;" id="hoverTeam14" src="images/team-hover.JPG" class="hover-img" alt="Golam Mostafa Sumon Hover">
+                          </div>
+                          <h5 class="text-dark-gray fw-600">Reshma Parvin</h5>
+                          <p class="text-gray fw-400 font-20px" style="margin-top: -20px;">Officer, Marketing</p>
+                      </div>
+                      <div class="col-md-3 text-center">
+                          <div class="team-container15 mx-auto mb-3">
+                              <img style="border-radius: 25px;" id="team15" src="images/team-main.JPG" class="team-img" alt="Mohammad Arifur Rahman">
+                              <img style="border-radius: 25px;" id="hoverTeam15" src="images/team-hover.JPG" class="hover-img" alt="Mohammad Arifur Rahman Hover">
+                          </div>
+                          <h5 class="text-dark-gray fw-600">Md Sohel Rana</h5>
+                          <p class="text-gray fw-400 font-20px" style="margin-top: -20px;">Deputy Manager, Accounts & Finance</p>
+                      </div>
+                      <div class="col-md-3 text-center">
+                          <div class="team-container16 mx-auto mb-3">
+                              <img style="border-radius: 25px;" id="team16" src="images/team-main.JPG" class="team-img" alt="Md. A. J. Pahlawan">
+                              <img style="border-radius: 25px;" id="hoverTeam16" src="images/team-hover.JPG" class="hover-img" alt="Md. A. J. Pahlawan Hover">
+                          </div>
+                          <h5 class="text-dark-gray fw-600">Md Mohiuddin Raju</h5>
+                          <p class="text-gray fw-400 font-20px" style="margin-top: -20px;">Accountant</p>
+                      </div>
+                  </div>
         
                 </div>
             </div>
@@ -451,6 +503,46 @@
           
             container12.addEventListener('mouseout', () => {
               hoverImage12.style.opacity = 0;
+            });
+            const container13 = document.querySelector('.team-container13');
+            const hoverImage13 = document.getElementById('hoverTeam13');
+          
+            container13.addEventListener('mouseover', () => {
+              hoverImage13.style.opacity = 1;
+            });
+          
+            container13.addEventListener('mouseout', () => {
+              hoverImage13.style.opacity = 0;
+            });
+            const container14 = document.querySelector('.team-container14');
+            const hoverImage14 = document.getElementById('hoverTeam14');
+          
+            container14.addEventListener('mouseover', () => {
+              hoverImage14.style.opacity = 1;
+            });
+          
+            container14.addEventListener('mouseout', () => {
+              hoverImage14.style.opacity = 0;
+            });
+            const container15 = document.querySelector('.team-container15');
+            const hoverImage15 = document.getElementById('hoverTeam15');
+          
+            container15.addEventListener('mouseover', () => {
+              hoverImage15.style.opacity = 1;
+            });
+          
+            container15.addEventListener('mouseout', () => {
+              hoverImage15.style.opacity = 0;
+            });
+            const container16 = document.querySelector('.team-container16');
+            const hoverImage16 = document.getElementById('hoverTeam16');
+          
+            container16.addEventListener('mouseover', () => {
+              hoverImage16.style.opacity = 1;
+            });
+          
+            container16.addEventListener('mouseout', () => {
+              hoverImage16.style.opacity = 0;
             });
         </script>
         <!-- javascript libraries -->
