@@ -19,6 +19,12 @@
         <link rel="stylesheet" href="css/responsive.css"/>
         <link rel="stylesheet" href="demos/green-energy/green-energy.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            .gallery-box{
+                filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.3));
+                transition: all 0.3s ease-in-out;
+            }
+        </style>
     </head>
     <body data-mobile-nav-style="classic">
         <!-- start header -->
@@ -70,111 +76,350 @@
         <section style="margin-top: -70px;">
           <div class="container" data-anime='{"opacity": [0,1], "duration": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
               <div class="row">
-                  <div class="col">
-                      <ul class="image-gallery-style-01 gallery-wrapper grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large">
-                          <li class="grid-sizer"></li> 
-                          <!-- start gallery item -->
-                          <li class="grid-item transition-inner-all">
-                              <div class="gallery-box border-radius-6px">
-                                  <a href="images/gallery/1.jpg" data-group="lightbox-gallery" title="Lightbox gallery image title">
-                                      <div class="position-relative gallery-image bg-dark-gray overflow-hidden">
-                                          <img src="images/gallery/1.jpg" alt="" />
-                                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
-                                                  <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </a>
+              <div class="col"></div>
+                  <ul class="image-gallery-style-01 gallery-wrapper grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large">
+                  <li class="grid-sizer"></li> 
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/1.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/1.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
                               </div>
-                          </li>
-                          <!-- end gallery item -->
-                          <!-- start gallery item -->
-                          <li class="grid-item transition-inner-all">
-                              <div class="gallery-box border-radius-6px">
-                                  <a href="images/gallery/2.jpg" data-group="lightbox-gallery" title="Lightbox gallery image title">
-                                      <div class="position-relative gallery-image bg-dark-gray overflow-hidden">
-                                          <img src="images/gallery/2.jpg" alt="" />
-                                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
-                                                  <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </a>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/2.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/2.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
                               </div>
-                          </li>
-                          <!-- end gallery item -->
-                          <!-- start gallery item -->
-                          <li class="grid-item transition-inner-all">
-                              <div class="gallery-box border-radius-6px">
-                                  <a href="images/gallery/3.jpg" data-group="lightbox-gallery" title="Lightbox gallery image title">
-                                      <div class="position-relative gallery-image bg-dark-gray overflow-hidden">
-                                          <img src="images/gallery/3.jpg" alt="" />
-                                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
-                                                  <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </a>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/3.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/3.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
                               </div>
-                          </li>
-                          <!-- end gallery item -->
-                          <!-- start gallery item -->
-                          <li class="grid-item transition-inner-all">
-                              <div class="gallery-box border-radius-6px">
-                                  <a href="images/gallery/4.jpg" data-group="lightbox-gallery" title="Lightbox gallery image title">
-                                      <div class="position-relative gallery-image bg-dark-gray overflow-hidden">
-                                          <img src="images/gallery/4.jpg" alt="" />
-                                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
-                                                  <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </a>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/4.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/4.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
                               </div>
-                          </li>
-                          <!-- end gallery item -->
-                          <!-- start gallery item -->
-                          <li class="grid-item transition-inner-all">
-                              <div class="gallery-box border-radius-6px">
-                                  <a href="images/gallery/5.jpg" data-group="lightbox-gallery" title="Lightbox gallery image title">
-                                      <div class="position-relative gallery-image bg-dark-gray overflow-hidden">
-                                          <img src="images/gallery/5.jpg" alt="" />
-                                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
-                                                  <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </a>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/5.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/5.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
                               </div>
-                          </li>
-                          <!-- end gallery item -->
-                          <!-- start gallery item -->
-                          <li class="grid-item transition-inner-all">
-                              <div class="gallery-box border-radius-6px">
-                                  <a href="images/gallery/6.jpg" data-group="lightbox-gallery" title="Lightbox gallery image title">
-                                      <div class="position-relative gallery-image bg-dark-gray overflow-hidden">
-                                          <img src="images/gallery/6.jpg" alt="" />
-                                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
-                                                  <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
-                                              </div>
-                                          </div>
-                                      </div>
-                                  </a>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/6.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/6.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
                               </div>
-                          </li>
-                          <!-- end gallery item -->
-                      </ul>
-                  </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/21.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/21.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/7.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/7.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/8.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/8.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/9.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/9.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/10.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/10.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/11.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/11.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/12.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/12.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/13.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/13.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/14.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/14.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/15.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/15.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/16.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/16.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/17.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/17.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/18.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/18.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/19.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/19.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  <!-- start gallery item -->
+                  <li class="grid-item transition-inner-all">
+                      <div class="gallery-box border-radius-6px">
+                      <a href="images/gallery/20.jpg" data-group="lightbox-gallery" title="Image Caption">
+                          <div class="position-relative gallery-image bg-dark-gray overflow-hidden" style="aspect-ratio: 1/1;">
+                          <img src="images/gallery/20.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+                          <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
+                              <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
+                              <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
+                              </div>
+                          </div>
+                          </div>
+                      </a>
+                      </div>
+                  </li>
+                  <!-- end gallery item -->
+                  </ul>
+              </div>
               </div>
           </div>
-      </section>
-          
+          </section>
         <!-- end section -->
 
   
