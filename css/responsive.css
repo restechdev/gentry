@@ -19712,11 +19712,6 @@
   header.sticky .fixed-header .navbar-brand, header.sticky .disable-fixed .navbar-brand {
     padding: 22px 0;
   }
-  header.sticky.sticky-active .navbar-brand .default-logo, header.sticky.sticky-active .navbar-brand .alt-logo {
-    /* visibility: hidden;
-    opacity: 0;
-    width: 0; */
-  }
   header.sticky .header-icon .header-language a {
     padding-top: 0;
     padding-bottom: 0;
