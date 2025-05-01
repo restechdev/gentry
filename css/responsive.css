@@ -2713,6 +2713,7 @@
   /* Swiper number pagination style 01 */
   .swiper-number-pagination-style-01 .swiper-number {
     bottom: 30px;
+    display: none;
   }
   .swiper-number-pagination-progress-vertical .swiper-pagination-wrapper {
     right: 0;
@@ -19712,9 +19713,9 @@
     padding: 22px 0;
   }
   header.sticky.sticky-active .navbar-brand .default-logo, header.sticky.sticky-active .navbar-brand .alt-logo {
-    visibility: hidden;
+    /* visibility: hidden;
     opacity: 0;
-    width: 0;
+    width: 0; */
   }
   header.sticky .header-icon .header-language a {
     padding-top: 0;
